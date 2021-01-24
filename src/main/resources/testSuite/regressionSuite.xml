@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test">
+
+	<listeners>
+
+		<listener
+			class-name="com.uiFramework.smart24x7.rosterUpload.helper.listener.RetryListener"></listener>
+	</listeners>
+
+	<test name="First Test">
+		<classes>
+			<class name="com.uiFramework.A"></class>
+		</classes>
+	</test>
+
+	<test name="Second Test">
+		<classes>
+			<class name="com.uiFramework.B"></class>
+		</classes>
+	</test>
+
+	<test name="Third Test">
+		<classes>
+			<class name="com.uiFramework.C"></class>
+		</classes>
+	</test>
+
+</suite>
