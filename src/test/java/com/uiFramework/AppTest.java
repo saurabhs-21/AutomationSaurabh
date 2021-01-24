@@ -10,6 +10,7 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
+
     /**
      * Create the test case
      *
@@ -18,6 +19,7 @@ public class AppTest
     public AppTest( String testName )
     {
         super( testName );
+
     }
 
     /**
