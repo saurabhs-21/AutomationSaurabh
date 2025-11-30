@@ -63,7 +63,6 @@ public class TestBase {
 
 	public WebDriver getBrowserObject(BrowserType btype) throws Exception {
 		try {
-
 			switch (btype) {
 			case Chrome:
 				// get object of ChromeBrowser class
@@ -83,7 +82,6 @@ public class TestBase {
 
 			default:
 				throw new Exception("Driver not found: " + btype.name());
-
 			}
 		} catch (Exception e) {
 			log.info(e.getMessage());
